@@ -130,12 +130,14 @@ a:focus {
   font-size: 32px;
   color: #ffffff;
 }
-
+.custom-border{
+  border-radius: 25px;
+}
 .custom_nav-container {
   padding: 0;
 }
 .custom_nav-container .navbar-nav {
-  padding-left: 18%;
+  padding-left: 0;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
@@ -266,6 +268,18 @@ a:focus {
 .slider_section .detail-box {
   color: #ffffff;
   margin-bottom: 145px;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 15px;
+  border: 3px solid #212529;
+  /*
+  width: 500px;
+  height: 200px;
+  background: #1f1f1f;
+  border-radius: 3px;
+  /*transform: skew(-5deg); /* OR transform: skew(-190deg);
+  position: relative;
+  left: 20px;
+  top: 10px;*/
 }
 .slider_section .detail-box h1 {
   font-size: 3.5rem;
