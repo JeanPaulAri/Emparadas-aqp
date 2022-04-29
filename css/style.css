@@ -287,7 +287,7 @@ a:focus {
   margin-bottom: 15px;
 }
 .slider_section .detail-box p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .slider_section .detail-box a {
   display: inline-block;
@@ -629,7 +629,7 @@ a:focus {
   background-color: #ffbe33;
   color: #ffffff;
   outline: none;
-  bottom: 0px;
+  bottom: 0;
   font-size: 24px;
   margin: 0 5px;
   border-radius: 100%;
